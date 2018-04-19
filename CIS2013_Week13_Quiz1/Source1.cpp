@@ -39,7 +39,7 @@ private:
 
 public:
 	savings(string n, string p) {
-		rate = 5.0;
+		rate = 5.0; // these are giving an error (squigly red underline) that the member (up above) is inaccessible. This changes when the above variables are put in "public"
 		name = "n";
 		phone = p;
 		acct_number = number++;
